@@ -1,0 +1,205 @@
+body{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url('pexels-giri-elisaphotography-6023806.jpg');           
+}
+#name{
+    font-size: 50pt;
+    font-family: cursive;
+    margin: 0px 928px 0 0;
+    position: fixed;
+    color: rgba(255, 11, 11, 0.87);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#logo{
+    margin: -20px 0 0 1134px;
+    position: fixed;
+}
+#moving{
+    opacity: 0.4;
+    margin: 100px 0px 0px -75px;
+position: fixed;
+}
+#form-box{
+   /* display: none;*/
+    position: fixed;
+}
+#box-main{
+    width: 420px;
+    height: 465px;
+    position: fixed;
+    margin: 50px 0px 0 440px;
+    background: rgba(2, 2, 2, 0.6);
+    padding: 10px;
+    overflow: hidden;
+}
+.button{
+    width: 175px;
+    height: 30px;
+    margin: 8% auto;
+    box-shadow:  0 0 20px 9px rgb(32, 32, 32);
+    position: relative;
+    border-radius: 30px;
+}
+.stylebtn{
+    padding: 4px 46px 6px 63px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    font-size: 17px;
+}
+#btn{
+    top: 0%;
+    bottom: 0%;
+    position:absolute;
+    border-radius: 30px;
+    transition: .5s;
+    height: 100%;
+    width: 175px;
+    background: rgba(253, 252, 252, 0.986);
+}
+/*#bttn{
+    top: 0%;
+    bottom: 0%;
+    position:absolute;
+    border-radius: 30px;
+    transition: .5s;
+    height: 100%;
+    width: 110px;
+    background: rgba(14, 10, 236, 0.8);
+}*/
+.login-form{
+    top: 150px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+    left: 50px;
+}
+.input{
+    width: 100%;
+    padding: 12px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top:0;
+    border-right: 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    outline: none;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: bold;
+}
+.sumbit-button{
+    width: 116%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: #ecebe960;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.checkbox{
+    margin: 30px 10px 34px 0;
+}
+span{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    bottom: 68px;
+    position: absolute;
+}
+#image{
+    height: 135px;
+  position: fixed;
+  bottom: 0;
+  opacity: 0.3;
+  animation: animate 10s linear infinite;
+}
+@keyframes animate{
+  0%{
+    left:0;
+  }
+  100%{
+    left:-1900px;
+  }
+}
+#new{
+    margin: 308px 160px 0 139px;
+    width: 146px;
+   
+    text-decoration: none;
+}
+.line{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+.line:hover{
+    color: rgb(255, 0, 0);
+}
+#user{
+    margin: 41px 142px;
+}
+#or{
+    margin: 6px 6px -33px 177px;
+    font-size: 34px;
+    color: rgb(0, 0, 0);
+  }
+  @media(max-width:480px)
+  {
+      body 
+      {
+          width: 5000px;
+          height: auto;
+          position: relative
+      }
+      #name{
+          display: none;
+      }
+      #logo{
+        position: fixed;
+        margin: -37px 0px 0px -15px
+      }
+      #box-main{
+          margin: 120px 20px 0 15px;
+          width: 400px;
+      }
+      #moving{
+        height: 200px;
+        width: auto;
+        margin: 600px 0px 0 130px;
+        opacity: 3;
+    }
+    #image{
+        height: 155px;
+  position: fixed;
+  bottom: 0;
+  opacity: 0.3;
+  animation: animate 10s linear infinite;
+}
+  body{
+     background-image: url('pexels-pixabay-268533.jpg');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100vh;
+  }
+  .input{
+      color: rgb(170, 126, 30);
+      border-bottom: 2px solid rgb(0, 0, 0);
+  }
+  #or{
+      color: rgb(255, 115, 0);
+  }
+  .button{
+      box-shadow: rgba(187, 94, 8, 0.781);
+  }
+  .btn{
+      background: re ;
+  }
+  }
